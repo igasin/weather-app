@@ -8,8 +8,8 @@ export const Loader = () => {
 				display: 'flex',
 				justifyContent: 'center',
 				alignItems: 'center',
-				height: '260px',
-				width: '370px',
+				height: '460px',
+				width: '360px',
 			}}
 		>
 			<svg style={{ position: 'absolute', width: 0, height: 0 }}>
@@ -21,7 +21,7 @@ export const Loader = () => {
 				</defs>
 			</svg>
 			<CircularProgress
-				size={150}
+				size={200}
 				sx={{
 					position: 'relative',
 					'svg circle': { stroke: 'url(#my_gradient)' },

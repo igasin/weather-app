@@ -12,8 +12,8 @@ export const searchWeather = async (city: string) => {
 		)
 
 		const data = response.data
-		const iconUrl = `${WEATHER_API_ICON_URL}` + data.weather[0].icon + '@2x.png'
-
+		const iconUrl = `${WEATHER_API_ICON_URL}` + data.weather[0].icon + '@4x.png'
+		console.log(iconUrl)
 		return {
 			humidity: data.main.humidity,
 			wind: data.wind.speed,

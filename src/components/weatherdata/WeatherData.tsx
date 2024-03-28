@@ -12,7 +12,7 @@ export const WeatherData = ({
 	return (
 		<>
 			<div className={styles.weatherImage}>
-				<img src={icon} alt='' />
+				<img src={icon} alt='icon' />
 			</div>
 			<div className={styles.weatherTemperature}>{temperature}°</div>
 			<div className={styles.weatherLocation}>{location}</div>
